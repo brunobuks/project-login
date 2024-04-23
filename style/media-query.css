@@ -7,6 +7,7 @@
 
     section#login {
         width: 90vw;
+        height: 280px;
     }
 
     section#login > div#image {
@@ -20,8 +21,14 @@
         width: 70%;
     }
 
+    div.field > input {
+        height: 100%;
+        width: calc(100% - 40%);
+    }
+
     div#form > p {
         font-size: 1em;
+        margin: 10px 0px;
     }
 }
 
@@ -32,6 +39,7 @@
 
     section#login {
         width: 990px;
+        height: 350px;
     }
 
     section#login > div#image {
@@ -45,12 +53,18 @@
         width: 60%;
     }
 
+    div.field > input {
+        height: 100%;
+        width: calc(100% - 220px);
+    }
+
     div#form > h1 {
         font-size: 2em;
     }
 
     div#form > p {
         font-size: 1.2em;
+        margin: 15px 0px;
     }
 }
 
